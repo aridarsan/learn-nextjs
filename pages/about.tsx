@@ -1,13 +1,10 @@
-import Header from "../components/Header/index"
-import styles from "../styles/Home.module.css"
+import Layout from '../components/Layout';
+import styles from '../styles/Home.module.css';
 
-export default function About(){
-	return(
-		<div>
-			<Header/>
-			<div className={styles.main}>
-				<h1 className={styles.title}>About Page</h1>
-			</div>
-		</div>
-	)
+export default function About() {
+  return (
+    <Layout pageTitle="About">
+      <h1 className={styles.title}>About Page</h1>
+    </Layout>
+  );
 }

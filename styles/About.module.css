@@ -3,8 +3,14 @@
   display: flex;
   justify-content: flex-end;
 }
+
 .item{
   margin: 0 1rem;
+}
+
+.item:hover{
+  color: cadetblue;
+  font-weight: 600;
 }
 
 .container{

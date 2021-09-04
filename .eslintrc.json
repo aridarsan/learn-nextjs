@@ -29,9 +29,7 @@
       "checkAttributes": true,
       "indentLogicalExpressions": true
     }],
-    "react/jsx-one-expression-per-line": ["enabled", {
-      "allow": "none"
-    }],
+    "react/jsx-one-expression-per-line": "off",
     "single": {
       "avoidEscape": true
     },

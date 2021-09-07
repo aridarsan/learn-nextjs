@@ -3,15 +3,10 @@ import styles from '../../styles/Home.module.css';
 import { useRouter } from 'next/router';
 
 
-interface Company{
-  name: string
-}
-
 interface User{
   id: number,
   name: string,
   email: string,
-  company: Company,
   phone: string
 }
 
@@ -24,10 +19,9 @@ export default function User(props: userDetailProps) {
   const {user} = props
   return (
     <Layout pageTitle='User Detail'>
-      <h1>User Detail Page</h1>
+      <h1 className={styles.title}>User Detail Page</h1>
       <h3>Name : {user.name}</h3>
       <p>Email : {user.email}</p>
-      <p>Company : {user.company.name}</p>
       <p>Phone : {user.phone}</p>
       <br/>
       <button className={styles.btn} onClick={()=> router.push('/user')}>

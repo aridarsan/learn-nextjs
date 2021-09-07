@@ -30,11 +30,5 @@
       "indentLogicalExpressions": true
     }],
     "react/jsx-one-expression-per-line": "off",
-    "single": {
-      "avoidEscape": true
-    },
-    "double": {
-      "avoidEscape": true
-    }
   }
 }

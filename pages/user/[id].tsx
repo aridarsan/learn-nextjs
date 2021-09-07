@@ -3,11 +3,15 @@ import styles from '../../styles/Home.module.css';
 import { useRouter } from 'next/router';
 
 
+interface Company{
+  name: string
+}
+
 interface User{
   id: number,
   name: string,
   email: string,
-  company.name: string,
+  company: Company,
   phone: string
 }
 

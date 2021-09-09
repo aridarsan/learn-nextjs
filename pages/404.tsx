@@ -12,14 +12,14 @@ export default function Custom404() {
   // }, []);
 
   return (
-    <Layout pageTitle="404">
+    <Layout pageTitle='404'>
       <h1 className={styles.title}>Oops... Not Found Page</h1>
 
       <h4 className={styles.text_center}>
         Halaman yang anda cari tidak ditemukan
       </h4>
 
-      <button className={styles.btn} onClick={()=> router.push('/')}>
+      <button className={styles.btn} onClick={() => router.push('/')}>
         Kembali
       </button>
     </Layout>
